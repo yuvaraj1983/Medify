@@ -13,9 +13,9 @@ const HeroSection = () => {
                 Medical <span style={{color:'#2AA7FF'}}>Centers</span> 
             </Typography>
             <Typography>Connect instantly with a 24x7 specialist or choose to video visit a particular doctor. </Typography>
-           <Link to='/search'>
+           <a href='/search'>
            <Button variant='contained'>Find Centers</Button>
-           </Link>
+           </a>
             
         </Box>
         {/* <Box width={'50%'} >

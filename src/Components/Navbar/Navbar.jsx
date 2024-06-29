@@ -28,9 +28,9 @@ const Navbar = () => {
                 <Link>Surgeries</Link>
                 <Link>Software for Provider</Link>
                 <Link>Facilities</Link>
-                <Link to="/my-bookings">
-                 <Button variant='contained' >My Bookings</Button>
-                </Link>
+                <a href="/my-bookings">
+                 <Button variant='contained' disableElevation >My Bookings</Button>
+                </a>
            </Stack>
         </Stack>
        
